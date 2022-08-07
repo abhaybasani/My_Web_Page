@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.matrix {
+    width: 100%;
+    height: 450px;
+    margin-left: 8px;
+}
+
+.card {
+    margin-left: 8px;
+    margin: auto;
+    width: 180px;
+    height: 200px;
+    background-color: CE49BF;
+    border: radius 10px;
+    outline: 2px solid #E4E9BE;
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+    position: relative;
+    overflow: hidden;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; */
+}
+
+.card-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .6;
+    transform: transform .75s;
+}
+
+.card:hover .card-image {
+    transform: scale(1.15);
+}
+
+.card-title {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-size: 20px;
+    text-shadow: 0 0 1px rgb(255, 255, 255);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.info p {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
