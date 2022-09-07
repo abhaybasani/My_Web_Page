@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}

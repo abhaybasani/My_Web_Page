@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to right, #25274D, #464866, #AAABB8, #2E9CCA, #29648A);
+    background: linear-gradient(to right, #9896F0, #C0E9FF, #2E9CCA, #29648A);
 }
 
 .logo {
