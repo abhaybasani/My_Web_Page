@@ -19,7 +19,7 @@ a {
 section {
     width: 100%;
     height: 60vh;
-    background-image: url("../img/pexels-invisiblepower-1076885.jpg");
+    background-image: url("../img/snow\ place.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -215,15 +215,15 @@ button:active {
 }
 
 .box-1 {
-    background-image: url("../img/pexels-anna-shvets-3683056.jpg");
+    background-image: url("../img/light.jpg");
 }
 
 .box-2 {
-    background-image: url("../img/pexels-fiona-art-3631430.jpg");
+    background-image: url("../img/light.jpg");
 }
 
 .box-3 {
-    background-image: url("../img/pexels-pixabay-270366.jpg");
+    background-image: url("../img/light.jpg");
 }
 
 .box-1 span,
@@ -279,7 +279,7 @@ button:active {
     height: 280px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("../img/backgrond.jpg");
+    background-image: url("../img/light\ skys.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -402,6 +402,18 @@ footer {
 .social i {
     font-size: 20px;
     color: #2B2B2B;
+}
+
+.cv a {
+    color: white;
+}
+
+.cv a:hover {
+    color: thistle;
+}
+
+.hire_me a {
+    color: white;
 }
 
 @media(max-width:1000px) {
