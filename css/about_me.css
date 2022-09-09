@@ -453,13 +453,11 @@ footer {
     }
     .services {
         padding: 2% 5% 0px 5%;
+        height: auto;
     }
     .box-container {
         justify-content: center;
         flex-wrap: wrap;
-    }
-    .services {
-        height: auto;
     }
     .box-1,
     .box-2,

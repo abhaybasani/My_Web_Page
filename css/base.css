@@ -25,6 +25,10 @@ body {
     display: flex;
 }
 
+.card-title a {
+    color: black;
+}
+
 
 /* to flex the nav option */
 

@@ -5,3 +5,12 @@
 main {
     padding-top: 30px;
 }
+
+.heading h2 {
+    text-align: center;
+    color: black;
+}
+
+.heading h2:hover {
+    color: violet;
+}
