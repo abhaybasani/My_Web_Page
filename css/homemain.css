@@ -60,3 +60,7 @@
 .info p {
     font-family: 'Edu VIC WA NT Beginner', cursive;
 }
+
+.card a h3 {
+    color: black;
+}
