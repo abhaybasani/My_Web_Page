@@ -1,16 +1,44 @@
 * {
-    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 main {
     padding-top: 30px;
 }
 
-.heading h2 {
-    text-align: center;
-    color: black;
+main h3 {
+    color: #2A2B2A;
 }
 
-.heading h2:hover {
-    color: violet;
+.slider {
+    width: 100%;
+    height: 400px;
+    min-height: 400px;
+    line-height: 400px;
+    background-image: url("../img/color\ art.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.slider .about-text p {
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.about-text p:first-child {
+    font-size: 30px;
+    padding: 70px 0;
+}
+
+.about-text p:last-child {
+    padding-bottom: 25px;
+}
+
+.about-text .p2 {
+    border: 1px solid black;
+    text-align: center;
 }
