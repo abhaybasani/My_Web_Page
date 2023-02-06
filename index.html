@@ -10,22 +10,29 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script src="js/nav_hamburger.js" defer></script>
     <link rel="stylesheet" href="css/base.css">
+
     <!--using FontAwesome---------------->
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/80e09f78d0.js" crossorigin="anonymous"></script>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+
     <!-- font family for change font design -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap" rel="stylesheet">
+
     <!-- <link rel="stylesheet" href="css/style01.css"> -->
     <link rel="stylesheet" href="css/slider.css">
-    <link rel="stylesheet" href="css/about_me.css">
+    <!-- <link rel="stylesheet" href="css/about_me.css"> -->
     <link rel="stylesheet" href="css/homemain.css">
     <link rel="stylesheet" href="css/navbar.css">
+
     <script src="js/slider.js" defer></script>
     <script type="text/javascript" src="js/script01.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
 
     <title>still in process</title>
     <style>
@@ -175,8 +182,30 @@
             </div>
         </div>
         <hr>
+        <br>
+        <!-- zoom algo code start here -->
+        <div class="zoom">
+            <section class="sec_1">
+                <div class="sec_div sec_1-div">
+                    <img src="img/sec_1.png" alt="" class="zoom">
+                </div>
+            </section>
+            <section class="sec_2">
+                <div class="sec_div sec_2-div">
+                    <h2 class="title">Final Cut Pro</h2>
+                    <img src="img/sec_2.png" alt="" class="zoom">
+                </div>
+            </section>
+            <section class="sec_3">
+                <div class="sec_div sec_3-div">
+                    <img src="img/sec_3.png" alt="" class="zoom">
+                </div>
+            </section>
+        </div>
+        <br>
 
         <!--footer-->
+        <hr>
         <footer>
             <!--heading-->
             <p>Abhay</p>
@@ -202,13 +231,29 @@
 
     </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script>
+        const tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".sec_2",
+                scrub: true,
+                pin: true,
+                start: "50% 50%",
+                end: "+=150%"
+            }
+        })
+
+        .from(".sec_2-div", {
+            scale: 0.5
+        })
+    </script>
 </body>
 
 </html>
