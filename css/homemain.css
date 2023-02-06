@@ -77,15 +77,13 @@ section {
     font-size: 1.6rem;
     background-color: #000;
     font-size: 62.5%;
+    width: 166%;
 }
 
 .zoom {
     display: block;
     max-width: 60%;
-    margin: 0;
-    padding: 0;
-    font-size: 1.6rem;
-    background-color: #000;
+    box-sizing: border-box;
 }
 
 .sec_div {
