@@ -7,6 +7,10 @@ body {
     padding: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -64,8 +68,7 @@ body {
 /* for hover */
 
 
-/* 
-.nav-links li:hover {
+/* .nav-links li:hover {
     background-color: grey;
 } */
 
