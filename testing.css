@@ -1,10 +1,4 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-.warning {
     background-color: #212123;
     text-align: center;
     display: grid;
@@ -12,7 +6,7 @@ body {
     height: 100vh;
 }
 
-.warning-box {
+.botao__bomba {
     background-image: linear-gradient( -120deg, yellow 0, yellow 10%, #101 10%, #101 20%, yellow 20%, yellow 30%, #101 30%, #101 40%, yellow 40%, yellow 50%, #101 50%, #101 60%, yellow 60%, yellow 70%, #101 70%, #101 80%, yellow 80%, yellow 90%, #101 90%, #101 100%);
     border: 5px solid #101;
     padding: 1.5rem;
@@ -20,7 +14,7 @@ body {
     box-shadow: 0 0 20px 6px rgba(137, 128, 241, 0.25);
 }
 
-.inp-text {
+button {
     font-family: "Audiowide";
     color: #fff;
     background-color: #000;

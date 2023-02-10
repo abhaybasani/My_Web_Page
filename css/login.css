@@ -1,0 +1,82 @@
+body {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    font-size: 30px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    width: 500px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+input[type="button"] {
+    padding: 10px 29px;
+    background: linear-gradient(to left, #E6E6FA, #B0E0E6, #FFE4B5, #FFF5EE, #FFF0F5);
+    border-radius: 5px;
+    border: 2px solid rgba(215, 222, 176, 0.911);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+
+/* input[type="button"]:hover {
+    background-color: black;
+    color: linear-gradient(to right, #4776E6, #8E54E9);
+} */
+
+.login:hover,
+.signup:hover {
+    background-color: blue;
+    border: 3px solid black;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.login,
+.signup {
+    padding: 5px;
+    margin: 7px;
+}

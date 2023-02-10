@@ -61,7 +61,7 @@
         }
 
         e.target.className =
-            "inp-text shake-constant " + Shaker;
+            "inp-text shake-constant" + Shaker;
 
         e.target.style.backgroundImage =
             "linear-gradient(to right, " + AfterChangeColor.join(", ") + " )";
@@ -99,8 +99,8 @@
     }
 
     function linkRedirect(e) {
-        window.location.href = "https://www.instagram.com/abhay_basani/";
+        window.location.href = "https://www.instagram.com/abhay_basani";
     }
 
-    document.addEventListener("DOMContentLoaded", delayfunction);
+    document.addEventListener("DOMContentLoaded", delayfunction());
 })();

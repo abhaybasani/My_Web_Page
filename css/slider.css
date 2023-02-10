@@ -1,6 +1,6 @@
 .slider {
     position: relative;
-    background: linear-gradient(to right, #A38089, #FFA8B5, #FFC7D4, #FFE4D6, #FCEEE5);
+    background: linear-gradient(to left, #F5F5DC, #98FB98, #B0E0E6, #696969, #B0E0E6);
     width: 100%;
     min-height: 500px;
     margin: 0;
@@ -18,7 +18,7 @@
 
 .slider .slide.active {
     clip-path: circle(150% at 0 50%);
-    transition: 2s;
+    transition: 1s;
 }
 
 .slider .slide img {

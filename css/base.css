@@ -15,7 +15,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to right, #9896F0, #C0E9FF, #2E9CCA, #29648A);
+    background: linear-gradient(to right, #87CEEB, #FFB6C1, #F5F5DC, #FFE5B4);
 }
 
 .logo {
