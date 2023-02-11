@@ -420,6 +420,9 @@ footer {
     * {
         box-sizing: border-box;
     }
+    .down-cv {
+        margin-top: 4px;
+    }
     .model {
         height: 460px;
         left: 90%;
@@ -440,6 +443,7 @@ footer {
     }
     .about-text {
         width: 400px;
+        overflow: hidden;
     }
     .about-text p:nth-child(1) {
         font-size: 20px;

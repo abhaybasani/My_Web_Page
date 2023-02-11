@@ -34,11 +34,12 @@ main h3 {
     padding: 70px 0;
 }
 
-.about-text p:last-child {
-    padding-bottom: 25px;
+.p1 {
+    width: 80%;
 }
 
-.about-text .p2 {
-    border: 1px solid black;
-    text-align: center;
+.p2 {
+    border: 2px solid blue;
+    height: 150px;
+    overflow: hidden;
 }
