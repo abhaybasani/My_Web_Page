@@ -99,7 +99,7 @@
     }
     
     .login-btn {
-        margin-top: 50px;
+        margin-top: 40px;
         width: 100%;
         background-color: #ffffff;
         color: #080710;
@@ -109,32 +109,18 @@
         border-radius: 5px;
         cursor: pointer;
     }
-    /* .social1 {
-        margin-top: 30px;
-        display: flex;
-    }
     
-    .social1 div {
-        background: red;
-        width: 150px;
-        border-radius: 3px;
-        padding: 5px 10px 10px 5px;
-        background-color: rgba(255, 255, 255, 0.27);
-        color: #eaf0fb;
-        text-align: center;
+    .signup-btn {
+        margin-top: 20px;
+        width: 100%;
+        background-color: #ffffff;
+        color: #080710;
+        padding: 15px 0;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 5px;
+        cursor: pointer;
     }
-    
-    .social1 div:hover {
-        background-color: rgba(255, 255, 255, 0.47);
-    }
-    
-    .social1 .fb {
-        margin-left: 25px;
-    }
-    
-    .social1 i {
-        margin-right: 4px;
-    } */
     
     .foot {
         /* border: 2px solid green; */
