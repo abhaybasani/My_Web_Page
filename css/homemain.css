@@ -84,6 +84,7 @@ section {
     display: block;
     max-width: 60%;
     box-sizing: border-box;
+    margin-top: 5px;
 }
 
 .sec_div {

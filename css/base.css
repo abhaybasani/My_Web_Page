@@ -101,6 +101,8 @@ footer p {
 }
 
 footer p:nth-child(1) {
+    display: flex;
+    justify-content: center;
     font-size: 30px;
     font-weight: bold;
     color: #191919;
@@ -136,6 +138,7 @@ footer {
 
 .social-icons {
     display: flex;
+    justify-content: center;
 }
 
 .social-icons i,

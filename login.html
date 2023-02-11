@@ -20,6 +20,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 
     <!-- <link rel="stylesheet" href="css/style01.css"> -->
     <link rel="stylesheet" href="css/slider.css">
@@ -28,14 +31,12 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/login.css">
 
-
     <title>still in process</title>
-    <style>
-
-    </style>
+    <style></style>
 </head>
 
 <body>
+    <header></header>
     <div class="container">
         <nav class="navbar">
             <div class="logo">Devils Nest</div>
@@ -57,48 +58,54 @@
                 </ul>
             </div>
         </nav>
-        <!--      login DIV start here    -->
-        <main>
-            <div class="login-container">
-                <form action="" method="POST" class="login-form">
-                    <table class="table-1">
-                        <th>Username</th>
-                        <tr></tr>
-                        <td><input type="text" value="" name="username" placeholder="Enter your name!" class="username"></td>
-                        <tr></tr>
-                        <th>Password</th>
-                        <tr></tr>
-                        <td><input type="password" value="" placeholder="password" name="password" class="password"></td>
-                        <tr></tr>
-                        <td class="submit"><input type="button" value="login" onclick="checkCredentials()" class="login">
-                            <input type="button" value="Sign-up" onclick="checkCredentials()" class="signup"></td>
-                    </table>
-                </form>
+        <br>
+        <div id="login">
+            <div class="background">
+                <div class="shape"></div>
+                <div class="shape"></div>
             </div>
-            <hr>
-        </main>
-        <footer>
-            <!-- <footer> -->
-            <!--heading-->
-            <p>Abhay</p>
-            <!--paragraph-->
-            <p>I make a project soon as possible.You really like my work,if you don't .I change this until you like I give you seticfaction result</p>
-            <!--social-->
-            <div class="social-icons">
-                <a href="https://stackoverflow.com/users/16596903/abhay-basani" target="_blank"><i class="fa-brands fa-stack-overflow"></i></a>
-                <a href="https://twitter.com/abhaybasani03" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/abhay_basani/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://github.com/abhaybasani" target="_blank"><i class="fa-brands fa-github"></i></a>
-            </div>
-            <!--copyright-->
-            <p class="copyright">Copyright by Abhay Basani</p>
-            <!-- </footer> -->
-            <!--social-attach-bar-->
-            <div class="social">
-                <a href="https://stackoverflow.com/users/16596903/abhay-basani" target="_blank"><i class="fa-brands fa-stack-overflow"></i></a>
-                <a href="https://twitter.com/abhaybasani03" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/abhay_basani/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://github.com/abhaybasani" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <form class="form">
+                <h3>Login Here</h3>
+
+                <label for="username" class="label">Username</label>
+                <input type="text" placeholder="Email or Phone" id="username" class="inp">
+
+                <label for="password" class="label">Password</label>
+                <input type="password" placeholder="Password" id="password" class="inp">
+
+                <button class="login-btn">Log In</button>
+                <!-- <div class="social1">
+                    <div class="go"><i class="fab fa-google"></i> Google</div>
+                    <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
+                </div> -->
+            </form>
+        </div>
+        <br>
+        <hr>
+        <footer class="foot">
+            <div class="box">
+                <!-- <footer> -->
+                <!--heading-->
+                <p class="p-name" style="color:black">Abhay</p>
+                <!--paragraph-->
+                <p class="p-para" style="color:whitesmoke">I make a project soon as possible.You really like my work,if you don't .I change this until you like I give you seticfaction result</p>
+                <!--social-->
+                <div class="social-icons">
+                    <a href="https://stackoverflow.com/users/16596903/abhay-basani" target="_blank"><i class="fa-brands fa-stack-overflow"></i></a>
+                    <a href="https://twitter.com/abhaybasani03" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/abhay_basani/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/abhaybasani" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <!--copyright-->
+                <p class="copyright" style="color:black;font-weight: bolder;">Copyright by Abhay Basani</p>
+                <!-- </footer> -->
+                <!--social-attach-bar-->
+                <div class="social" style="background-color: aqua;">
+                    <a href="https://stackoverflow.com/users/16596903/abhay-basani" target="_blank"><i class="fa-brands fa-stack-overflow"></i></a>
+                    <a href="https://twitter.com/abhaybasani03" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/abhay_basani/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/abhaybasani" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
             </div>
         </footer>
     </div>
