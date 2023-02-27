@@ -1,8 +1,8 @@
 .slider {
     position: relative;
     background: linear-gradient(to left, #F5F5DC, #98FB98, #B0E0E6, #696969, #B0E0E6);
-    width: 100%;
     min-height: 500px;
+    width: 100%;
     margin: 0;
     overflow: hidden;
     border-radius: 10px;
