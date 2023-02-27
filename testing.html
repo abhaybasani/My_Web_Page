@@ -9,13 +9,34 @@
     <link rel='stylesheet' href='https://csshake.surge.sh/csshake.min.css'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Audiowide'>
     <link rel="stylesheet" href="testing.css">
+    <link rel="stylesheet" href="css/base.css">
+    <!-- <link rel="stylesheet" href="homemain.css"> -->
 </head>
 
 <body>
-    <div class="botao__bomba">
-        <button class="segure-para-armar shake-constant">Pressione para explodir</button>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">Devils Nest</div>
+            <!-- for hamburger [responsive] -->
+            <a href="#" class="ham-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <!-- -- -->
+            <div class="nav-links">
+                <ul>
+                    <li><a class="btn active" aria-current="page" href="index.html">Home</a></li>
+                    <li><a class="btn" aria-current="page" href="about-me.html">About-Me</a></li>
+                    <li><a class="btn" aria-current="page" href="e-books.html">E-Books</a></li>
+                    <li><a class="btn " aria-current="page" href="contact.html">Contact-us</a></li>
+                    <li><a class="btn" aria-current="page" href="hacking practice.html">Start Hacking</a></li>
+                    <li><a class="btn" aria-current="page" href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
-    <script src="script.js"></script>
+    <script src="js/nav_hamburger.js" defer></script>
 </body>
 
 </html>

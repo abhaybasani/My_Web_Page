@@ -22,24 +22,35 @@ main h3 {
     position: relative;
 }
 
-.slider .about-text p {
+.about-text .h1 {
     margin: auto;
     color: white;
     text-align: center;
     font-size: 1.5em;
 }
 
-.about-text p:first-child {
-    font-size: 30px;
-    padding: 70px 0;
+.about-text {
+    align-items: center;
 }
 
-.p1 {
+.h1 {
     width: 80%;
+    border: 2px solid red;
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
 }
 
-.p2 {
+.h4 {
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    /* font-size: 1.5em; */
     border: 2px solid blue;
+    display: flex;
+    justify-content: center;
     height: 150px;
     overflow: hidden;
+    text-align: center;
 }
