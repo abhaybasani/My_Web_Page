@@ -81,7 +81,7 @@
 /* Demo purposes only - Not important */
 
 section {
-    height: 100vh;
+    height: 100%;
     font-size: 1.6rem;
     background-color: #000;
     font-size: 62.5%;
@@ -93,6 +93,7 @@ section {
     max-width: 60%;
     box-sizing: border-box;
     margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .sec_div {
@@ -101,6 +102,8 @@ section {
     align-items: center;
     justify-content: center;
     height: 100%;
+    /* overflow: auto; */
+    padding-bottom: 10px;
 }
 
 .title {
